@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.sample.qtest.SampleTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.sample.qtest.SampleTest
+testIsPalindrome  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at com.sample.qtest.SampleTest.testIsPalindrome(SampleTest.java:31)
+
+testSquare  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at com.sample.qtest.SampleTest.testSquare(SampleTest.java:16)
+
